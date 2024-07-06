@@ -3,32 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>citação e código</title>
+    <title>listas</title>
 </head>
 <body>
-    <h1>código-fonte | pré-formatação</h1>
-    <p>o comando <code>document.getElementById('#minha pika')</code> é escrito em JavaScript</p>
-    <pre>
-        <code>
-num = int(input('digite um número'))
-if int % 2 == 0:
-    print('o número {num} é par'.format(num))
-else:
-    print('o número {num} e impar'.format(num ))
-        </code>
-    </pre>
-    <h1>citação</h1>
-    <p>como dizia um fudido, <q>o comptador é um burro muito rápido</q></p>
-    <p>citação em mais de uma linha usa outra tag
-        <br> chamos de citações completas
-    </p>
-    <p>segundo o sr Wikipedia</p>
-    <blockquote cite="https://pt.wikipedia.org/wiki/HTML5">
-        HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software.[1] É a quinta versão da linguagem HTML. 
-    </blockquote>
-    <h1>abreviação</h1>
-    <p>estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
-    <h1>texto invertido</h1>
-    <p><bdo dir="ltr">minha vó é velha</bdo></p>
+    <h1>aprendendo a usar listas</h1>
+    <h2>Lista ordenadas</h2>
+    <ol type="A"><!-- ordenad list-->
+        <!-- li list item-->
+        <li>acordar</li>
+        <li>ter depressão</li>
+        <li>levantar</li>
+        <li>escoar o dente</li>
+    </ol>
+    <h2>Lista não ordenada</h2>
+    <ul type="square">
+        <li>alice in the bordeland</li>
+        <li>the midnight gospel</li>
+        <li>old man</li>
+    </ul>
+    <h1>misturando lista 1.0</h1>
+    <ol>
+        <li>antigas</li>
+            <ol>
+                <li>php</li>
+            </ol>
+        <li>novas</li>
+        <ol start="2">
+            <li>python</li>
+            <li>gdscript</li>
+            <li>c#</li>
+        </ol>
+    </ol>
+    <h2>meus jogos favoritos</h2>
+    <ol>
+        <li>PlasStation</li>
+            <ul>
+                <li>God Of Wars</li>
+                <li>Bem 10 Alien Force</li>
+            </ul>
+        <li>Pc</li>
+            <ul>
+                <li>Minecraft</li>
+                <li>Stardew Vally</li>
+            </ul>
+        <li>Xbox 360</li>
+            <ul>
+                <li> Celeste</li>
+                <li>Call Of Dulty</li>
+                <li>Naruto Storm 3</li>
+            </ul>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de hiper textos</dd>
+        <dt>CSS</dt>
+        <dd>Stilo De Folhas em cascada</dd>
+    </dl>
 </body>
 </html>
