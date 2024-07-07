@@ -8,19 +8,20 @@
         div.conteiner
         {
             background-color: gray;
-            display: flex;
+            display: flex; /* adiciona o flex box modulo level one*/
         }
         div.filho
         {
             background-color: gainsboro;
             border: 1px solid black;
-            flex: auto;
+            flex: auto; /* ocupar a largura máxima */
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="conteiner"> <!-- div pai dos filhos recebe o parâmetro 
+        display: flex; -->
         <div class="filho">A</div>
         <div class="filho">B</div>
         <div class="filho">C</div>

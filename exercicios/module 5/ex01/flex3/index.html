@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box</title>
+    <style>
+        div.conteiner
+        {
+            background-color: gray;
+            display: flex; /* adiciona o flex box modulo level one*/
+            flex-flow: row wrap;
+            
+        }
+        div.filho
+        {
+            background-color: gainsboro;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            flex: auto
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner"> <!-- div pai dos filhos recebe o parâmetro 
+        display: flex; -->
+        <div class="filho">exemplo de bloco: A</div>
+        <div class="filho">exemplo de bloco: B</div>
+        <div class="filho">exemplo de bloco: C</div>
+        <div class="filho">exemplo de bloco: D</div>
+        <div class="filho">exemplo de bloco: F</div>
+    </div>
+</body>
+</html>
