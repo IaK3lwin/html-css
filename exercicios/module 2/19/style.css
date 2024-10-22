@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+body {
+	background: #A1A2A6;
+	font: normal 1em Arial, Verdana, sans-serif;
+}
+
+h1 {
+	color: #F2C12E;
+	
+}
+
+
+h2 {
+	color: #F2AE30;
+}
+
+p {
+	text-align: justify;
+}
+
+h1#main-title {
+	background-color: #593E25;
+	text-align: center;
+}
+
+.subtitle
+{
+	background-image: linear-gradient(to right, #593E25 3%, rgba(0, 0, 0, 0) 97%);
+}
+
+.basic
+{
+	color: #57d457;
+}
+
+.intermediary
+{
+	color: #d2d457;
+}
+
+.advanced
+{
+	color: #d45757;
+}
+
+.del {
+	text-decoration: underline;
+}
