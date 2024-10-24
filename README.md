@@ -4,7 +4,7 @@
   <head>
      <meta charset="UF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
+    <title>readme</title>
   </head>
   <body>
       <ul>
