@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+/* importando as fontes Farro & Rakkas */
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Rakkas&display=swap');
 
+/* configurando variáveis */
+:root {
+    --font-standard: Arial, Verdana, Helvetica, sans-serif;
+    --font-one: 'Rakkas', Times, serif;
+    --font-two: 'Farro', Times, serif;
+}
+
+/* estilização p/ todoss elementos */
 * {
     margin: 0px;
     padding: 0px;
+    font-family: var(--font-standard);
 }
 
+/* estilização das tags */
 html, body {
     background-color: darkgray;
 }
@@ -18,6 +30,8 @@ header {
 }
 
 header > h1{
+    font-family: var(--font-one);
+    font-size: 8.7vw;
     font-variant: small-caps;
 }
 
@@ -41,8 +55,13 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 15px;
-    width: 100vw;
+    font-family: var(--font-two);
+    font-size: 2.5vw;
+    font-weight: bolder;
     line-height: 2em;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 
 }
 
@@ -56,12 +75,23 @@ section.img {
 
     /* parágrafo entro ee secripn img */
     p {
+        display: inline-block;
+        padding: 25px;
+        border-radius: 8px;
         background-color: rgba(0, 0, 0, 0.356);
         color: white;
     }
 
 }
 
+section#img1 {
+    background-image: url('../imagens/background001.jpg');
+    
+}
+
+section#img2 {
+    background-image: url('../imagens/background002.jpg');
+}
 
 
 footer {
