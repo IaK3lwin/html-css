@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tBel</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 25px;
+        }
+        col#col1 {
+            background-color: aqua;
+        }
+        col#col2 {
+            background-color: brown;
+        }
+        col#col3 {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>colgroups</h1>
+
+
+    <table>
+        <colgroup>
+            <col id="col1">
+            <col id="col2">
+            <col id="col3">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>profissao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>julho</td>
+                <td>M</td>
+                <td>ator</td>
+            </tr>
+            <tr>
+                <td>Irina</td>
+                <td>F</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

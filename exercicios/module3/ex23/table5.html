@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td, th {
+
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3" >filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Aliens</td>
+                <td>Rombo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inceotion</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblition</td>
+                <td>Mateix</td>
+                <td>big hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">homens</th>
+                <td>Bruno mendes</td>
+                <td>Intocável</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Mendonça </td>
+                <td>Wall-e</td>
+                <td>oldboy</td>
+                <td>dangel</td>
+            </tr>
+            <tr>
+                <td>Fabiano mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi drive</td>
+                <td>toy story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
