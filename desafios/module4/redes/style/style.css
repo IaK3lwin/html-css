@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* resetando estilos de todas as tags */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos das tags html e body */
+html, body {
+    /* tamanho */
+    height: 100vh;
+    width: 100vw;
+}
+
+/* estilização do  body */
+body {
+    /* estilização de background */
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* estilização tag main */
+main {
+    /* posição */
+    position: relative;
+    /* tamanho */
+    height: 100vh;
+
+}
+
+/* estilização da sessão phone */
+section#phone {
+    /* posição */
+    position: absolute;
+
+    /* centralizando a section */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* tamanho */
+    height: 627px;
+    width: 311px;
+
+    /* estilização background */
+
+    background-image: url("../imagens/frame-iphone.png");
+
+}
+
+iframe#tela {
+    /* posição  */
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    /* tamanho */
+    width: 265px;
+    height: 500px;
+}
