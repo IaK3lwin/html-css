@@ -19,6 +19,9 @@ body {
     background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    /* tamanho */
+    height: 98vh;
+    width: 98vw;
 }
 
 /* estilização tag main */
@@ -59,4 +62,30 @@ iframe#tela {
     /* tamanho */
     width: 265px;
     height: 500px;
+}
+
+/* estilizando botoes das redes */
+
+section#button-redes 
+{
+    /* alinhado a direita */
+    text-align: right;
+}
+
+
+section#button-redes img
+{
+    /* tamanho */
+    width: 50px;
+
+    /* margin */
+    margin: 10px;
+
+    /* deixando botoes redondos */
+    border-radius: 50%;
+
+    /* confugurando border-sozing */
+
+    box-sizing: border-box;
+    
 }
