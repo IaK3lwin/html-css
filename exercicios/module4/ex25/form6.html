@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <h1>color, range & file</h1>
+    <form action="php.php" method="post">
+        <p>
+            <label for="icor">cor: </label>
+            <input type="color" name="cor" id="icor" value="#ff0679">
+        </p>
+        <p>
+            <label for="irange">qnt de algo</label>
+            <input type="range" name="r" id="irange" min="1" max="5" value="2">
+        </p>
+
+        <p>
+            <label for="iimg">file</label>
+            <input type="file" name="file" id="iimg">
+        </p>
+        <input type="submit" value="Enviar"> <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

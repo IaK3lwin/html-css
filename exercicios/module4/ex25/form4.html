@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>testando input de telefone e email</h1>
+        <fieldset>
+            <legend>dados</legend>
+            <form action="#" method="get">
+                <p>
+                    <label for="inome">Nome*</label>
+                    <input type="text" name="nome" id="inome" required minlength="3" maxlength="20">
+                </p>
+                <p>
+                    <label for="iemail">Email* </label>
+                    <input type="email" name="email" id="iemail" required minlength="5" maxlength="30" placeholder="xxxxxxxxxxx@gmail.com">
+                </p>
+                <p>
+                    <label for="itel">Numero</label>
+                    <input type="tel" name="tel" id="itel" required min="6" max="10" pattern="^\(\d{2}\)d{4, 5}-\d{4}$">
+                </p>
+                <p>
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar">
+                </p>
+
+            </form>
+        </fieldset>
+    </body>
+</html>
