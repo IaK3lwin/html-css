@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>componentee de dados sem o input</h1>
+    <form action="php.php" method="post">
+        <p>
+            <label for="iarea"></label>
+            <select name="" id="iarea">
+                <optgroup label="nordeste">
+                    <option value="ba">Bahia</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ce">Ceara</option>
+                </optgroup>
+                <optgroup label="sudoete">
+                    <option value="sp">sao paulo</option>
+                    <option value="rj">rio de janeiro</option>
+                </optgroup>
+            </select>
+
+        </p>
+        <label for="list-data">prof</label>
+        <input type="text" list="list-data">
+        <datalist id="list-data">
+            <optgroup label="area tech">
+                <option value="web">web deeloper</option>
+                <option value="web design">web design</option>
+            </optgroup>
+        </datalist>
+
+        <p>
+            <label for="itxt">area de texto</label> <br>
+            <textarea name="" id="itxt"></textarea>
+        </p>
+    </form>
+</body>
+</html>
