@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media QUerry - em só um css </title>
+    <style>
+        /* eslção geral */
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            background-color: rgb(134, 134, 214);
+
+            width: 100vw;
+            height: 100vh;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+
+        h1 {
+
+            padding: 10px;
+            text-shadow: 2x 3px 4px rgb(60, 53, 95);
+        }
+        /* tela portrait */
+        @media screen and (orientation: portrait) {
+            body {
+    /*        bg-color | bg-image | bh-reapeat bg-attachment | bg-position */
+            background: url('../img/cev-portrait.jpg') no-repeat fixed;
+            background-position: bottom center;
+
+            }
+        }
+
+        /* estilização tela landscape */
+        @media screen and (orientation: landscape) {
+            body {
+                background-image: url('../img/cev-landscape.jpg');
+                background-size: cover;
+                background-position: center bottom;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação da tela</h1>
+</body>
+</html>
