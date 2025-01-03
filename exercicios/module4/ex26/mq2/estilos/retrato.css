@@ -1,3 +1,10 @@
 @charset "utf-8";
 
 /* estilizaçãoo tela em pe (portrait) */
+
+body {
+    /*        bg-color | bg-image | bh-reapeat bg-attachment | bg-position */
+    background: url('../img/cev-portrait.jpg') no-repeat fixed;
+    background-position: bottom center;
+
+}
