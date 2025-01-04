@@ -29,4 +29,8 @@ window.onresize = function () {
         // mehnu aparece
         menu.style.display = 'block'
     }
+    else
+    {
+        menu.style.display = 'none'
+    }
 }
