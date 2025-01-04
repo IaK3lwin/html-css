@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* ocutando o buruer */
+
+#burguer {
+    display: none;
+}
+
+ul {
+    display: flex;
+    padding: 4px;
+}
