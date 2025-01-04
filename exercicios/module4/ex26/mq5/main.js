@@ -4,6 +4,27 @@ var menu = document.getElementById('menu-nav')
 // define o menu como invisivel
 //menu.style.display = 'none'
 
+if (window.innerWidth >= 669)
+{
+    menu.style.display = 'block'
+}
+
+//escuta o eventos de inpuys, caso o navegadirt  mude o tamanho
+window.onresize = function () {
+    //pega a largura
+    let largura = window.innerWidth
+    //se a largura for maior que 669
+    menu.style.display = 'none'
+    if (largura > 669)
+    {
+        // mehnu aparece
+        menu.style.display = 'block'
+    }
+
+}
+
+
+
 //escuta os eventos do site, se a função de clique for chamada
 function btn_burguer_on_click()
 {
@@ -15,22 +36,6 @@ function btn_burguer_on_click()
     else // se não
     {
         // deixe o menu invisivel
-        menu.style.display = 'none'
-    }
-}
-
-//escuta o eventos de inpuys, caso o navegadirt  mude o tamanho
-window.onresize = function () {
-    //pega a largura
-    let largura = window.innerWidth
-    //se a largura for maior que 669
-    if (largura > 669)
-    {
-        // mehnu aparece
-        menu.style.display = 'block'
-    }
-    else
-    {
         menu.style.display = 'none'
     }
 }
