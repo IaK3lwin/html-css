@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+    html {
+        background-image: url('../img/back-tablet.jpg');
+    }
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+/* Desktop */
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    html {
+        background-image: url('../img/back-pc.jpg');
+    }
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 1201px)
+{
+    html {
+        background-image: url('../img/back-tv.jpg');
+        
+    }
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+}
+
+/* print */
+
+@media print
+{
+    html {
+        background-image: url('../img/back-print.jpg');
+    }
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
