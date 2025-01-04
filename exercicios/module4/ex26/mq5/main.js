@@ -19,11 +19,14 @@ function btn_burguer_on_click()
     }
 }
 
-
+//escuta o eventos de inpuys, caso o navegadirt  mude o tamanho
 window.onresize = function () {
+    //pega a largura
     let largura = window.innerWidth
+    //se a largura for maior que 669
     if (largura > 669)
     {
+        // mehnu aparece
         menu.style.display = 'block'
     }
 }
