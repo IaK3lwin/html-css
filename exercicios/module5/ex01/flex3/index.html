@@ -9,6 +9,7 @@
         {
             background-color: gray;
             display: flex; /* adiciona o flex box modulo level one*/
+            /* shorthand | direction and wrap*/
             flex-flow: row wrap;
             
         }
@@ -18,12 +19,13 @@
             border: 1px solid black;
             text-align: center;
             padding: 10px;
+            /* ! flex que também é um shorthand o valor auto não posibilita espaço entre os itens */
             flex: auto
         }
     </style>
 </head>
 <body>
-    <div class="conteiner"> <!-- div pai dos filhos recebe o parâmetro 
+    <div class="conteiner"> <!-- div pai dos filhos recebe o parâmetro -> display: flex;
         display: flex; -->
         <div class="filho">exemplo de bloco: A</div>
         <div class="filho">exemplo de bloco: B</div>
@@ -31,5 +33,26 @@
         <div class="filho">exemplo de bloco: D</div>
         <div class="filho">exemplo de bloco: F</div>
     </div>
+    
+    <script>
+        let minhaBunda = 'fulll'
+        // * eu me odeio
+        /*  
+        
+        * eu me odieo
+        ! aaaaaaaa
+        ? sá porra não funciona!!!!
+        
+        */
+        
+        function fuder(parametro_louco: String)
+        {
+        /* @description descriçao foda*/
+
+            window.alert(parametro_louco)
+        }
+        
+        fuder(minhaBunda)
+    </script>
 </body>
 </html>
