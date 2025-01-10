@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Centralozando usando flex</title>
+        <style>
+            * {
+                /* rezetando as estilizações */
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-color: rgb(99, 99, 221);
+            }
+
+            main 
+            {
+                /*Box model*/
+                display: flex;
+                /* slinhamento */
+                flex-flow: row nowrap;
+                /* centralizando os itens do main */
+                justify-content: center;
+                align-items: center;
+                /* size */
+                height: 100vh;
+                width: 100vw;
+                /*fundo*/
+                background-color: rgb(161, 147, 147);
+                
+
+            }
+
+            section
+            {
+                background-color: rgba(255, 255, 255, 0.377);
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            section h1
+            {
+                color: rgb(53, 53, 184);
+                text-shadow: 5x 6px 4px black;
+
+            }
+            section p {
+                font-size: .6em;
+                padding: 5px;
+            }
+            .container-form {
+                padding: 4px;
+                margin: 5px;
+                border-radius: 5px;
+                background-color: rgba(0, 0, 255, 0.301);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Login</h1>
+                <p>seja bem vindo!</p>
+                <form action="">
+                    <section class="container-form">
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome">
+                    </section>
+                    <section class="container-form">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha">
+                    </section>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
