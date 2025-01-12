@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model flex box module 1 | order fkex-items</title>
+    <style>
+        div.container
+        {
+            /* diz que essa div é o container colocando atributo flex */
+            display: flex;
+            background-color: lightblue;
+        }
+        div.items
+        {
+            /* diz que os items serão muitos flexiveis e adaptaveis */
+            flex: auto;
+            border: 2px solid black;
+            background-color: lightgreen;
+        }
+        .o1 {
+            order: 0;
+        }
+
+        .o2 {
+            order: -2;
+        }
+        .o3 {
+            order: 4;
+        }
+        .o4 {
+            order: 8;
+        }
+        .o5 {
+            order: 2;
+        }
+
+        .o6 {
+            order: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- div pai, o container que recebe display: flex; -->
+    <div class="container">
+        <!-- Items do container -->
+        <div class="items o1">A</div>
+        <div class="items o2">B</div>
+        <div class="items o3">C</div>
+        <div class="items o4">D</div>
+        <div class="items 05">E</div>
+        <div class="items o6">F</div>
+    </div>
+</body>
+</html>
