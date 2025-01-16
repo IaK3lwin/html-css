@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model flex box module 1</title>
+    <style>
+        div.container
+        {
+            /* diz que essa div é o container colocando atributo flex */
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: lightblue;
+        }
+        div.items
+        {
+            /* diz que os items serão muitos flexiveis e adaptaveis */
+            border: 2px solid black;
+            background-color: lightgreen;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <!-- div pai, o container que recebe display: flex; -->
+    <div class="container">
+        <!-- Items do container -->
+        <div class="items">A</div>
+        <div class="items">B</div>
+        <div class="items">C</div>
+        <div class="items">D</div>
+        <div class="items">E</div>
+        <div class="items">F</div>
+    </div>
+</body>
+</html>
