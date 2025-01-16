@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+header
+{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    border: 1px dotted black;
+}
+
+nav {
+    border: 1px dashed black ;
+}
+
+main
+{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    h1 {
+        text-indent: 0px;
+        padding: 5px;
+    }
+}
+
